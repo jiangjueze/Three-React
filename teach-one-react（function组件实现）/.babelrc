@@ -1,0 +1,21 @@
+{
+    "presets": ["@babel/preset-env", "@babel/preset-react"]
+  }
+
+
+
+
+/*
+这样写也可以，这是把要用的插件写出来了，上面是直接放了两个插件组
+{
+  "presets": [
+    "@babel/preset-env"
+  ],
+  "plugins": [
+    ["transform-react-jsx", {
+        "pragma": "React.createElement"
+    }]
+  ]
+}
+
+*/
